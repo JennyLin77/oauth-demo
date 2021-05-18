@@ -1,0 +1,28 @@
+{
+  "name": "oauth-demo",
+  "version": "1.0.0",
+  "description": "A very simple demo of OAuth 2.0 using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JennyLin77/oauth-demo.git"
+  },
+  "keywords": [
+    "ming7777"
+  ],
+  "author": "JennyLin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JennyLin77/oauth-demo/issues"
+  },
+  "homepage": "https://github.com/JennyLin77/oauth-demo#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "koa": "^2.13.1",
+    "koa-route": "^3.2.0",
+    "koa-static": "^5.0.0"
+  }
+}

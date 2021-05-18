@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OAuth2 Demo</title>
+</head>
+<body>
+    <a id="login_link">Login with Github</a>
+    <script>
+        const clientID = '4af535ff9183244847c2';
+
+        const authorizeUri = 'https://github.com/login/oauth/authorize';
+        const redirectUri = 'http://localhost:8080/oauth/redirect';
+        
+        const loginLinkEl = document.getElementById('login_link');
+        loginLinkEl.href = `${authorizeUri}?client_id=${clientID}&redirect_uri=${redirectUri}`;
+    </script>
+</body>
+</html>
